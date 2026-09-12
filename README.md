@@ -181,5 +181,6 @@ inspect `rule_based_carla.launch.py` before applying it to a different map.
 - Development model: two-person co-development
 - Portfolio release organization: Taeyun Kim
 
-Publication of this cleaned version still requires the ownership and model/data
-checks listed in [`PUBLIC_RELEASE_NOTES.md`](PUBLIC_RELEASE_NOTES.md).
+Publication checks were completed before this public release. The
+[`PUBLIC_RELEASE_NOTES.md`](PUBLIC_RELEASE_NOTES.md) file records the release
+scope and provenance.
