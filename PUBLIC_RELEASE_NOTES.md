@@ -2,9 +2,8 @@
 
 ## Purpose and Scope
 
-This directory is a local, clean staging copy for a future public portfolio
-repository. It has no GitHub remote and has not been pushed. The original
-working tree was not modified during this extraction.
+This directory is the clean public release for the portfolio repository. The
+original working tree was not modified during this extraction.
 
 ## Source Origin
 
@@ -40,7 +39,7 @@ three untracked files. The relevant additions or changes are:
 
 ## Included Files
 
-The staging copy retains only the `carla_autonomy` package portions needed to
+The public release retains only the `carla_autonomy` package portions needed to
 understand the final hybrid stack:
 
 - C++ master control, Lattice Planner, Pure Pursuit, and traffic-manager code
@@ -69,7 +68,7 @@ rights are confirmed separately.
 
 ## Public-Safety Changes
 
-The following changes were made **only in this staging copy**:
+The following changes were made **only in this public release**:
 
 | File | Original local setting | Public-release change |
 |---|---|---|
@@ -99,13 +98,12 @@ from this tree and require a separate review before any later addition.
 no separate open-source reuse license. Third-party dependency terms remain in
 force.
 
-## Remaining Work Before GitHub Publication
+## Release Follow-up
 
 1. Build in a compatible ROS 2 + CARLA ROS bridge environment and record the
    tested dependency versions.
 2. Test the documented launch command with publication-cleared local artifacts
    and a non-sensitive route file.
-3. Add a GitHub remote and push only after the above checks are complete.
 
 ## Validation Performed
 
@@ -119,5 +117,6 @@ force.
 The isolated `colcon build` stopped before C++ compilation because
 `carla_msgs` was not installed in the current ROS environment. `carla_msgs`,
 `carla_ros_bridge`, and the CARLA runtime are external dependencies that this
-release deliberately does not copy. A full build and simulation run remain a
-pre-publication task in an environment with the compatible bridge installed.
+release deliberately does not copy. A full build and simulation run remain
+follow-up validation tasks in an environment with the compatible bridge
+installed.
