@@ -137,14 +137,7 @@ vehicle safety.
 
 ## Environment
 
-The source is a ROS 2 `ament_cmake` package and requires a CARLA server plus
-the separately installed `carla_ros_bridge`, `carla_spawn_objects`, and
-`carla_msgs` packages. The Python nodes additionally use CARLA's Python API,
-PyTorch, OpenCV, Ultralytics, NumPy, Pillow, and `cv_bridge`.
-
-The original source does not document exact ROS 2 distribution, CARLA, CUDA,
-or model versions. This release therefore does not claim a specific version;
-use compatible versions for the CARLA ROS bridge being installed.
+ROS 2 기반으로 구현했으며, CARLA 시뮬레이션 환경에서 개발·검증했다.
 
 ## How to Run
 
