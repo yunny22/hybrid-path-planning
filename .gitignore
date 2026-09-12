@@ -1,0 +1,38 @@
+# ROS 2 build products
+build/
+install/
+log/
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+*.code-workspace
+
+# Recordings, datasets, and local experiment outputs
+*.bag
+*.db3
+*.mcap
+data/
+dataset/
+datasets/
+artifacts/
+outputs/
+runs/
+
+# Learned weights are supplied separately after publication-rights review.
+*.pt
+*.pth
+*.onnx
+*.engine
+src/carla_autonomy/models/*
+!src/carla_autonomy/models/README.md
+
+# Local runtime configuration
+.env
+*.local.yaml
+*.local.yml
+*.local.json
